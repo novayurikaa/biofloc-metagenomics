@@ -21,10 +21,10 @@ This project investigates the microbial community structure and functional poten
    NOTE: MAG and BCG run at reduced scale on local macOS. Full scale implementation could be expanded using HPC during future PhD work. 
 
 ### Research Questions
-1. community composition
+1. (community composition)
    which microbial taxa dominate the biofloc microbiome?
    how this composition support a stable system?
-2. Functional potential
+2. (Functional potential)
    Which metabolic pathways related to nutrient cycling, bioflock formation, and host health?
 3. Can we recover draft genomes of key ecological players?
 4. Do microbes encode beneficial secondary metabolite (e.g., probiotic trait, antimicrobials) that may support biofloc performance?
@@ -56,7 +56,7 @@ Analysis
 - [ ] Report BGC traits
 
 Interpretation
-- [ ] Ecological insights summary in `docs/interpretation.md
+- [ ] Ecological insights summary in `docs/interpretation.md`
 
 ### Nova Yurika 
 Marine Science + Bioinformactics
