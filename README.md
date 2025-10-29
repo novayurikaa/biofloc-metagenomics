@@ -1,37 +1,66 @@
-# biofloc metagenomics
-Shotgun metagenomic analysis of biofloc aquaculture microbiome (Rajeev et al., 2023)
-This project applies a full unix-based shotgun metagenomics workflow, including: 
-###
-1. Quality control of real illumina metagenomes
-2. Taxonomic profiling with Kraken2 + Bracken
-3. Functional trait discovery (water quality, nitrification, probiotics)
-4. Genome assembly + MAG recovery
-5. Biosynthetic gene cluster (BGC)
+# Biofloc metagenomics shotgun analysis project
 
+
+## Background Statement
+Biofloc technology enhances aquaculture sustainability by leveraging microbial
+food webs to convert nitrogenous waste into beneficial biomass while reducing
+water exchange. Understanding microbial taxa and their encoded functions is key
+to designing interventions (e.g., probiotics) that promote desirable traits.
+
+This project investigates the microbial community structure and functional potential of biofloc aquaculture using shotgun metagenomic sequencing from shotgun metagenomic analysis of biofloc aquaculture microbiome (Rajeev et al., 2023).
+
+### This project applies a full unix-based shotgun metagenomics workflow, including: 
+
+1. Quality control (FastQC, fastp)
+2. Taxonomic profiling (Kraken2 + Bracken)
+3. Functional annotation (HUMAnN3)
+4. Genome assembly+draft MAG recovery, small scale (MEGAHIT, MetaBAT2, CheckM)
+   1 Sample for demonstration due to local compute limits
+6. Biosynthetic gene cluster (BGC) discovery (antiSMASH/DeepBCG)
+
+   NOTE: MAG and BCG run at reduced scale on local macOS. Full scale implementation could be expanded using HPC during future PhD work. 
+
+### Research Questions
+1. community composition
+   which microbial taxa dominate the biofloc microbiome?
+   how this composition support a stable system?
+2. Functional potential
+   Which metabolic pathways related to nutrient cycling, bioflock formation, and host health?
+   3. Can we recover draft genomes of key ecological players?
+   4. Do microbes encode beneficial secondary metabolite (e.g., probiotic trait, antimicrobials) that may support biofloc performance?
 
 ### Data source
-I  use publicly available shotgun metagenomic datasets from this system:
+I  use publicly available shotgun metagenomic datasets from this publication:
 Rajeev et al. 2023 — Metagenome sequencing and recovery of 444 MAGs from a biofloc aquaculture system.  
 DOI: https://doi.org/10.1038/s41597-023-02622-0
+Source NCBI SRA : SRA accessions will be listed later
+sequencing: paired-end short reads (illumina)
 
-### Pipeline Summary
-1. Download SRA data → FASTQ  
-2. Quality filtering  
-3. Kraken2/Bracken taxonomy  
-4. Assembly (MEGAHIT)  
-5. MAG binning (MetaBAT2)  
-6. BGC detection (DeepBGC + antiSMASH web)  
-7. Visualization and interpretation
+Files stored in: data/raw/      data/processed/
 
-   ### Results Preview (to be added)
-- Interactive Krona plot
-- Taxonomic barplots (Class/Order/Family)
-- Functional pathway heatmaps
-- MAG quality & BGC summary
+### Progress Checklist
+Setup
+- [x] GitHub repository
+- [x] Project directory structure
 
+Analysis
+- [ ] Download SRA metadata & raw reads
+- [ ] QC + MultiQC report
+- [ ] Taxonomic profiles + plots
+- [ ] Functional profiles + pathway visualization
+
+ MAG + BGC 
+- [ ] Single-sample assembly + binning
+- [ ] CheckM quality
+- [ ] antiSMASH / DeepBGC on recovered MAGs
+- [ ] Report BGC traits
+
+Interpretation
+- [ ] Ecological insights summary in `docs/interpretation.md
 
 ### Nova Yurika 
-Marine Bioinformatics Portofolio
+Marine Science + Bioinformactics
+GitHub: https://github.com/novayurikaa
 
 
 
