@@ -33,13 +33,19 @@ This project investigates the microbial community structure and functional poten
 ### 4. What are key biosynthetic gene clusters that may benefit aquaculture performance?
 
 ### Data source
-I  use publicly available shotgun metagenomic datasets from this publication:
-Rajeev et al. 2023 — Metagenome sequencing and recovery of 444 MAGs from a biofloc aquaculture system.  
-DOI: https://doi.org/10.1038/s41597-023-02622-0
-Source NCBI SRA : SRA accessions will be listed later
-sequencing: paired-end short reads (illumina)
 
-Files stored in: data/raw/      data/processed/
+
+We use three real shotgun metagenomic samples from a biofloc aquaculture system
+Rajeev et al. 2023 — Metagenome sequencing and recovery of 444 MAGs from a biofloc aquaculture system. DOI: https://doi.org/10.1038/s41597-023-02622-0
+
+### BioProject PRJNA967453:
+
+| Sample | Accession | Description |
+|--------|-----------|-------------|
+| Biofloc S1 | SRR24442555 | Early stage microbiome |
+| Biofloc S2 | SRR24442556 | Mid development microbiome |
+| Biofloc S3 | SRR24442557 | Later stage / treatment microbiome |
+
 
 ### Progress Checklist
 Setup
