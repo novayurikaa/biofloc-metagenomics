@@ -21,13 +21,16 @@ This project investigates the microbial community structure and functional poten
    NOTE: MAG and BCG run at reduced scale on local macOS. Full scale implementation could be expanded using HPC during future PhD work. 
 
 ### Research Questions
-1. (community composition)
-   which microbial taxa dominate the biofloc microbiome?
-   how this composition support a stable system?
-2. (Functional potential)
-   Which metabolic pathways related to nutrient cycling, bioflock formation, and host health?
-3. Can we recover draft genomes of key ecological players?
-4. Do microbes encode beneficial secondary metabolite (e.g., probiotic trait, antimicrobials) that may support biofloc performance?
+### 1. (community composition)
+ #### How do microbial community composition differ between multiple biofloc?
+ #### which microbial taxa dominate the biofloc microbiome?
+
+  
+### 2. (Functional potential)
+#### Which functional pathway relevant to water quality and host health are enriched in different biofloc samples?
+
+### 3. Can we recover draft genomes of key ecological players?
+### 4. What are key biosynthetic gene clusters that may benefit aquaculture performance?
 
 ### Data source
 I  use publicly available shotgun metagenomic datasets from this publication:
