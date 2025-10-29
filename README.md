@@ -26,8 +26,8 @@ This project investigates the microbial community structure and functional poten
    how this composition support a stable system?
 2. Functional potential
    Which metabolic pathways related to nutrient cycling, bioflock formation, and host health?
-   3. Can we recover draft genomes of key ecological players?
-   4. Do microbes encode beneficial secondary metabolite (e.g., probiotic trait, antimicrobials) that may support biofloc performance?
+3. Can we recover draft genomes of key ecological players?
+4. Do microbes encode beneficial secondary metabolite (e.g., probiotic trait, antimicrobials) that may support biofloc performance?
 
 ### Data source
 I  use publicly available shotgun metagenomic datasets from this publication:
