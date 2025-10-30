@@ -53,8 +53,8 @@ Setup
 - [x] Project directory structure
 
 Analysis
-- [ ] Download SRA metadata & raw reads
-- [ ] QC + MultiQC report
+- [x] Download SRA metadata & raw reads
+- [x] QC + MultiQC report
 - [ ] Taxonomic profiles + plots
 - [ ] Functional profiles + pathway visualization
 
