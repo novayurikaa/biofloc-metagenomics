@@ -1,0 +1,7 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	SRR24442555_1	/Users/mm/Documents/unix/metagenome/biofloc-metagenomics/data/qc_reports/SRR24442555_1_fastqc.zip
+FastQC	all_sections	SRR24442555_2	/Users/mm/Documents/unix/metagenome/biofloc-metagenomics/data/qc_reports/SRR24442555_2_fastqc.zip
+FastQC	all_sections	SRR24442556_1	/Users/mm/Documents/unix/metagenome/biofloc-metagenomics/data/qc_reports/SRR24442556_1_fastqc.zip
+FastQC	all_sections	SRR24442556_2	/Users/mm/Documents/unix/metagenome/biofloc-metagenomics/data/qc_reports/SRR24442556_2_fastqc.zip
+FastQC	all_sections	SRR24442557_1	/Users/mm/Documents/unix/metagenome/biofloc-metagenomics/data/qc_reports/SRR24442557_1_fastqc.zip
+FastQC	all_sections	SRR24442557_2	/Users/mm/Documents/unix/metagenome/biofloc-metagenomics/data/qc_reports/SRR24442557_2_fastqc.zip
