@@ -11,7 +11,7 @@ This project investigates the microbial community structure and functional poten
 
 ### This project applies a full unix-based shotgun metagenomics workflow, including: 
 
-1. Quality control (FastQC, fastp)
+1. Quality control and trimming (FastQC, fastp)
 2. Taxonomic profiling (Kraken2 + Bracken)
 3. Functional annotation (HUMAnN3)
 4. Genome assembly+draft MAG recovery, small scale (MEGAHIT, MetaBAT2, CheckM)
